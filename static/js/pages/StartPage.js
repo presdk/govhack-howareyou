@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 async function fetchData() {
-  return await fetch("http://localhost:8000/me")
+  return await fetch("http://govhack.cheez.dev:8000/me")
   .then(response => {
       console.log(response);
     return response.json();
