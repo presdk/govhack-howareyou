@@ -170,7 +170,7 @@ SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
 
 # Social Auth Redirect URLs
 LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'me'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'login'
 
