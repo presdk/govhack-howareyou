@@ -1,3 +1,11 @@
 from django.shortcuts import render
+from .form import UserInfoForm
 
-# Create your views here.
+
+def calculate_depression(request):
+    pass
+
+
+def get_form(request):
+    
+    pass

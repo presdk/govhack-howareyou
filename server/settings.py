@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_django',
+    'rest_social_auth',
     'facebook_auth',
     'statistic',
     'webpack_loader',

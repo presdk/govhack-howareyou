@@ -28,4 +28,7 @@ urlpatterns = [
 
     path('dashboard/', fb_auth.index, name='dashboard'),
     path('completed/', fb_auth.index, name='completed'),
+
+    # Social API login (REST)
+    path('api/login/', include('rest_social_auth.urls_session', )),
 ]
