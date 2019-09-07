@@ -9,9 +9,8 @@ def login(request):
 
 @login_required
 def get_user_info(request):
-    if not request.user.is_authenticated():
-        return render(request, 'facebook_auth/login.html')
-    return HttpResponse(json.dumps(request.backend.strategy.request_data()), content_type="application/json")
+    social_user = request.user.social_auth.get()
+    return HttpResponse(json.dumps(social_user.extra_data), content_type="application/json")
 
 
 #@login_required
