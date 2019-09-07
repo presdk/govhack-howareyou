@@ -30,9 +30,7 @@ ALLOWED_HOSTS = [
     "localhost",
 ]
 
-
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -73,6 +71,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -129,6 +129,31 @@ USE_TZ = True
 SOCIAL_AUTH_FACEBOOK_KEY = "2391165474312244"
 SOCIAL_AUTH_FACEBOOK_SECRET = "eb649c6e1c779e5f64138225585e961c"
 
+SOCIAL_AUTH_FACEBOOK_API_VERSION = '4.0'
+
+# Permission Node
+# (Ref: https://developers.facebook.com/docs/facebook-login/permissions)
+SOCIAL_AUTH_FACEBOOK_SCOPE = ['email',
+                              'user_age_range',
+                              'user_birthday',
+                              'user_friends',
+                              'user_gender',
+                              'user_hometown',
+                              'user_likes',
+                              'user_location',
+                              'user_posts',
+                              ]
+
+SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
+  'fields': 'id, name, email, picture.type(large), link'
+}
+
+SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
+        ('name', 'name'),
+        ('email', 'email'),
+        ('picture', 'picture'),
+        ('link', 'profile_url'),
+]
 
 # Social Auth Redirect URLs
 LOGIN_URL = 'login'
