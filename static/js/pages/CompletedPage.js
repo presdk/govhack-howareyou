@@ -2,18 +2,16 @@ import React from "react";
 
 const Smiley = () => {
   return (
-    <center>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
-        width="128px"
-        height="128px"
-      ></img>
-    </center>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+      width="128px"
+      height="128px"
+    ></img>
   );
 };
 
 const CompletedPage = () => {
-  // fetch('http://localhost:8000/hello')
+  // fetch('http://govhack.cheez.dev:8000/hello')
   // .then(function(response) {
   //   console.log(response.json());
   // })
@@ -22,14 +20,23 @@ const CompletedPage = () => {
   // });
 
   return (
-    <div className="row">
-      <div className="col-lg-4 offset-lg-4 text-center">
-        <Smiley />
-        <p>Assessment Completed</p>
+    <div className="columns">
+      <div className="column is-half is-offset-one-quarter has-text-centered">
+        <div>
+          <Smiley />
+        </div>
+        <div>
+          <p>Assessment Completed</p>
+        </div>
         <hr />
-        <p>Share your results!</p>
-        <br />
-        <a className="button is-link is-rounded is-medium">Share</a>
+        <div>
+          <p>Share your results!</p>
+        </div>
+        <div>
+          <a className="button is-primary is-link is-rounded is-medium">
+            Share
+          </a>
+        </div>
       </div>
     </div>
   );

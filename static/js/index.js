@@ -7,11 +7,11 @@ import DashboardPage from "./pages/DashboardPage";
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ paddingTop: "5em" }}>
       <Router>
         <Route exact path="/" component={() => <StartPage />} />
         <Route exact path="/completed" component={() => <CompletedPage />} />
-        <Route exact path="/dashboard" component={() => <DashboardPage/>} />
+        <Route exact path="/dashboard" component={() => <DashboardPage />} />
       </Router>
     </div>
   );

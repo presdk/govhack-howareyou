@@ -27,21 +27,18 @@ const DashboardPage = () => {
   ];
 
   return (
-    <div>
-      <div style={{marginBottom: '1em'}}>
-        <Icon style={{ fontSize: "2em" }} type="user" /> Friends
-      </div>
-      <div className="row">
-        <div className="col-lg-6">
-          <div className="row">
-            {friendList.map((friend, index) => (
-              <div className="col-lg-6">
-                <PersonCard person={friend} key={index} />
-              </div>
-            ))}
-          </div>
+    <div className="columns">
+      <div className="column is-half is-offset-one-quarter">
+        <div>
+          <Icon style={{ fontSize: "2em" }} type="user" /> Friends
         </div>
-        <div className="col-lg-6"></div>
+        <div className="columns is-multiline">
+          {friendList.map((friend, index) => (
+            <div className="column is-half">
+              <PersonCard person={friend} key={index} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
