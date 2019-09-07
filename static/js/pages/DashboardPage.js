@@ -27,14 +27,14 @@ const DashboardPage = () => {
   ];
 
   return (
-    <div className="columns">
-      <div className="column is-half is-offset-one-quarter">
-        <div>
-          <Icon style={{ fontSize: "2em" }} type="user" /> Friends
-        </div>
+    <div className="columns is-multiline">
+      <div className="column is-12" style={{ marginBottom: "1em" }}>
+        <Icon style={{ fontSize: "2em" }} type="user" /> Friends
+      </div>
+      <div className="column is-12">
         <div className="columns is-multiline">
           {friendList.map((friend, index) => (
-            <div className="column is-half">
+            <div className="column is-3">
               <PersonCard person={friend} key={index} />
             </div>
           ))}

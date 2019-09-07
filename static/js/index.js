@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import StartPage from "./pages/StartPage";
 import CompletedPage from "./pages/CompletedPage";
 import DashboardPage from "./pages/DashboardPage";
+import 'antd/dist/antd.css';
 
 const App = () => {
   return (
