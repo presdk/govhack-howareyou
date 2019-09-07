@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "govhack.cheez.dev",
     "localhost",
+    "127.0.0.1",
 ]
 
 # Application definition
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'social_django',
     'facebook_auth',
+    'statistic',
     'webpack_loader',
 ]
 
