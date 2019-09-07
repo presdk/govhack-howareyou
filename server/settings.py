@@ -40,7 +40,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'social_django',
     'facebook_auth',
+    'webpack_loader',
 ]
+
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'bundles/',
+        'STATS_FILE': os.path.join(BASE_DIR, './server/webpack-stats.json'),
+    }
+}   
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
