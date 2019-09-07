@@ -25,7 +25,10 @@ SECRET_KEY = '-f@u0^w5aawp-+ntpucc9cc=qrdvvo)-n31ik+y9krk38o%i3('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "govhack.cheez.dev",
+    "localhost",
+]
 
 
 # Application definition
