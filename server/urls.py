@@ -20,10 +20,11 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('social/', include('social_django.urls', namespace="social")),
     path("login/", fb_auth.login, name="login"),
     path("", fb_auth.index, name="index"),
     path("logout/", auth_views.LogoutView.as_view(), name="logout"),
-    path('social-auth/', include('social_django.urls', namespace="social")),
+    path("me/", fb_auth.get_user_info, name="my_profile")
 
     path('dashboard/', fb_auth.index, name='dashboard'),
     path('completed/', fb_auth.index, name='completed'),

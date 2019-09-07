@@ -97,3 +97,4 @@ node_modules
 
 static/bundles/
 server/webpack-stats.json
+migrations

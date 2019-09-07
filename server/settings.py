@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "govhack.cheez.dev",
     "localhost",
+    "127.0.0.1",
 ]
 
 # Application definition
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'social_django',
     'facebook_auth',
+    'statistic',
     'webpack_loader',
 ]
 
@@ -137,35 +139,54 @@ USE_TZ = True
 SOCIAL_AUTH_FACEBOOK_KEY = "2391165474312244"
 SOCIAL_AUTH_FACEBOOK_SECRET = "eb649c6e1c779e5f64138225585e961c"
 
-SOCIAL_AUTH_FACEBOOK_API_VERSION = '4.0'
+# Social Login pipeline
+# (Auth -> Check Allowed -> Find Mail -> (If none)Create New)
+SOCIAL_AUTH_PIPELINE = (
+    'social_core.pipeline.social_auth.social_details',
+    'social_core.pipeline.social_auth.social_uid',
+    'social_core.pipeline.social_auth.auth_allowed',
+    'social_core.pipeline.social_auth.social_user',
+    'social_core.pipeline.user.get_username',
+    'social_core.pipeline.social_auth.associate_by_email',
+    'social_core.pipeline.user.create_user',
+    'social_core.pipeline.social_auth.associate_user',
+    'social_core.pipeline.social_auth.load_extra_data',
+    'social_core.pipeline.user.user_details',
+)
+
 
 # Permission Node
 # (Ref: https://developers.facebook.com/docs/facebook-login/permissions)
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email',
+                              'user_link',
                               'user_age_range',
                               'user_birthday',
                               'user_friends',
                               'user_gender',
                               'user_hometown',
-                              'user_likes',
                               'user_location',
-                              'user_posts',
-                              ]
-
-SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
-  'fields': 'id, name, email, picture.type(large), link'
-}
+]
 
 SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
-        ('name', 'name'),
-        ('email', 'email'),
-        ('picture', 'picture'),
-        ('link', 'profile_url'),
+    ('name', 'name'),
+    ('email', 'email'),
+    ('picture', 'picture'),
+    ('link', 'profile_url'),
+    ('friends', 'friends'),
+    ('gender', 'gender'),
+    ('hometown', 'hometown'),
+    ('location', 'location'),
+    ('address', 'address'),
+    ('age_range', 'age_range'),
+    ('birthday', 'birthday'),
 ]
+
+SOCIAL_AUTH_URL_NAMESPACE = 'social'
+SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
 
 # Social Auth Redirect URLs
 LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'my_profile'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'login'
 
