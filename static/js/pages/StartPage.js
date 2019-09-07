@@ -48,14 +48,16 @@ const StartPage = () => {
         <div>
           <Link to="/dashboard">To dashboard</Link>
         </div>
-        <div style={{marginBottom: '1em'}}>
+        <div style={{ marginBottom: "1em" }}>
           {fields.map((field, index) => {
             return (
-              <DropdownField
-                key={index}
-                title={field.title}
-                options={field.options}
-              />
+              <p>
+                <DropdownField
+                  key={index}
+                  title={field.title}
+                  options={field.options}
+                />
+              </p>
             );
           })}
         </div>
