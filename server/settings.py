@@ -151,6 +151,20 @@ SOCIAL_AUTH_FACEBOOK_SCOPE = ['email',
                               'user_location',
                               ]
 
+SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
+    ('name', 'name'),
+    ('email', 'email'),
+    ('picture', 'picture'),
+    ('link', 'profile_url'),
+    ('friends', 'friends'),
+    ('gender', 'gender'),
+    ('hometown', 'hometown'),
+    ('location', 'location'),
+    ('address', 'address'),
+    ('age_range', 'age_range'),
+    ('birthday', 'birthday'),
+]
+
 SOCIAL_AUTH_URL_NAMESPACE = 'social'
 SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
 
