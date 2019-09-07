@@ -24,4 +24,7 @@ urlpatterns = [
     path("", fb_auth.index, name="index"),
     path("logout/", auth_views.LogoutView.as_view(), name="logout"),
     path('social-auth/', include('social_django.urls', namespace="social")),
+
+    path('dashboard/', fb_auth.index, name='dashboard'),
+    path('completed/', fb_auth.index, name='completed'),
 ]
