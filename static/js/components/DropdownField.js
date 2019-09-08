@@ -3,7 +3,9 @@ import React from "react";
 const DropdownField = ({ title, options }) => {
   return (
     <div className="field">
-      <label className="label is-inline">{title}</label>
+      <p>
+        <label className="label is-inline">{title}</label>
+      </p>
       <div className="control">
         <div className="select">
           <select>

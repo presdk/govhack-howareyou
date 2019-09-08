@@ -11,7 +11,7 @@ const responseFacebook = response => {
   fetch("https://govhack.cheez.dev/api/login/social/token/facebook/", {
     method: "POST",
     headers: {
-        'Content-Type': 'application/json',
+      "Content-Type": "application/json"
     },
     body: JSON.stringify({
       code: accessToken,
@@ -24,17 +24,23 @@ const responseFacebook = response => {
 
 const LoginPage = () => {
   useEffect(() => {
-      // do something
+    // do something
   });
 
   return (
-    <div className="container">
-      <FacebookLogin
-        appId="2391165474312244"
-        autoLoad={true}
-        fields="name,email,picture"
-        callback={responseFacebook}
-      />
+    <div className="columns is-multiline">
+      <div className="column is-12 is-size-3 has-text-centered">
+        Sign In
+      </div>
+      <div className="column is-half is-offset-one-quarter has-text-centered">
+        <FacebookLogin
+          className="is-text-center"
+          appId="2391165474312244"
+          autoLoad={true}
+          fields="name,email,picture"
+          callback={responseFacebook}
+        />
+      </div>
     </div>
   );
 };
