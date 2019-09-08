@@ -3,8 +3,6 @@ import FacebookLogin from "react-facebook-login";
 import MainLogo from "../components/MainLogo";
 
 const LoginPage = props => {
-  const { handleLogin } = props;
-
   const responseFacebook = response => {
     console.log(response);
     const { accessToken } = response;

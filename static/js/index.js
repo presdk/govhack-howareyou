@@ -12,7 +12,7 @@ const App = () => {
     <div className="container" style={{ paddingTop: "15vh" }}>
       <Router>
         <Route exact path="/" component={() => <StartPage />} />
-        <Route exact path="/login" component={() => <LoginPage handleLogin={handleLogin} />} />
+        <Route exact path="/login" component={() => <LoginPage />} />
         <Route exact path="/completed" component={() => <CompletedPage />} />
         <Route exact path="/dashboard" component={() => <DashboardPage />} />
       </Router>
