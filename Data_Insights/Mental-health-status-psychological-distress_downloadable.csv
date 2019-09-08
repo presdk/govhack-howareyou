@@ -1,0 +1,409 @@
+﻿Period,Indicator,Dimension,Dimension_category,Sex,Measure
+2006,Psychological distress,Age_group_5_year,15-24,Female,12
+2006,Psychological distress,Age_group_5_year,15-24,Male,7
+2006,Psychological distress,Age_group_5_year,15-24,Total,9.5
+2006,Psychological distress,Age_group_5_year,25-34,Female,7.5
+2006,Psychological distress,Age_group_5_year,25-34,Male,6.3
+2006,Psychological distress,Age_group_5_year,25-34,Total,6.9
+2006,Psychological distress,Age_group_5_year,35-44,Female,7.4
+2006,Psychological distress,Age_group_5_year,35-44,Male,5.4
+2006,Psychological distress,Age_group_5_year,35-44,Total,6.4
+2006,Psychological distress,Age_group_5_year,45-54,Female,5
+2006,Psychological distress,Age_group_5_year,45-54,Male,5.2
+2006,Psychological distress,Age_group_5_year,45-54,Total,5.1
+2006,Psychological distress,Age_group_5_year,55-64,Female,5.5
+2006,Psychological distress,Age_group_5_year,55-64,Male,4.1
+2006,Psychological distress,Age_group_5_year,55-64,Total,4.8
+2006,Psychological distress,Age_group_5_year,65-74,Female,4.9
+2006,Psychological distress,Age_group_5_year,65-74,Male,5.6
+2006,Psychological distress,Age_group_5_year,65-74,Total,5.2
+2006,Psychological distress,Age_group_5_year,75+,Female,9.2
+2006,Psychological distress,Age_group_5_year,75+,Male,6.4
+2006,Psychological distress,Age_group_5_year,75+,Total,8.1
+2006,Psychological distress,Ethnicity,Asian,Female,9.1
+2006,Psychological distress,Ethnicity,Asian,Male,5.7
+2006,Psychological distress,Ethnicity,Asian,Total,7.5
+2006,Psychological distress,Ethnicity,European/Other,Female,6.6
+2006,Psychological distress,Ethnicity,European/Other,Male,5.1
+2006,Psychological distress,Ethnicity,European/Other,Total,5.9
+2006,Psychological distress,Ethnicity,Māori,Female,12.7
+2006,Psychological distress,Ethnicity,Māori,Male,8.8
+2006,Psychological distress,Ethnicity,Māori,Total,10.9
+2006,Psychological distress,Ethnicity,Pacific,Female,14.3
+2006,Psychological distress,Ethnicity,Pacific,Male,11.9
+2006,Psychological distress,Ethnicity,Pacific,Total,13.2
+2006,Psychological distress,Quintile,Quintile 1,Female,3.8
+2006,Psychological distress,Quintile,Quintile 1,Male,3.3
+2006,Psychological distress,Quintile,Quintile 1,Total,3.6
+2006,Psychological distress,Quintile,Quintile 2,Female,6
+2006,Psychological distress,Quintile,Quintile 2,Male,3.6
+2006,Psychological distress,Quintile,Quintile 2,Total,4.8
+2006,Psychological distress,Quintile,Quintile 3,Female,5.1
+2006,Psychological distress,Quintile,Quintile 3,Male,4.8
+2006,Psychological distress,Quintile,Quintile 3,Total,5
+2006,Psychological distress,Quintile,Quintile 4,Female,9.8
+2006,Psychological distress,Quintile,Quintile 4,Male,7.5
+2006,Psychological distress,Quintile,Quintile 4,Total,8.7
+2006,Psychological distress,Quintile,Quintile 5,Female,13.4
+2006,Psychological distress,Quintile,Quintile 5,Male,9.9
+2006,Psychological distress,Quintile,Quintile 5,Total,11.7
+2006,Psychological distress,Total_population,Total,Female,7.5
+2006,Psychological distress,Total_population,Total,Male,5.7
+2006,Psychological distress,Total_population,Total,Total,6.6
+2011,Psychological distress,Age_group_5_year,15-24,Female,6.2
+2011,Psychological distress,Age_group_5_year,15-24,Male,3.9
+2011,Psychological distress,Age_group_5_year,15-24,Total,5
+2011,Psychological distress,Age_group_5_year,25-34,Female,6.6
+2011,Psychological distress,Age_group_5_year,25-34,Male,3.8
+2011,Psychological distress,Age_group_5_year,25-34,Total,5.3
+2011,Psychological distress,Age_group_5_year,35-44,Female,5.8
+2011,Psychological distress,Age_group_5_year,35-44,Male,4.1
+2011,Psychological distress,Age_group_5_year,35-44,Total,5
+2011,Psychological distress,Age_group_5_year,45-54,Female,5.3
+2011,Psychological distress,Age_group_5_year,45-54,Male,3.8
+2011,Psychological distress,Age_group_5_year,45-54,Total,4.6
+2011,Psychological distress,Age_group_5_year,55-64,Female,4.4
+2011,Psychological distress,Age_group_5_year,55-64,Male,3
+2011,Psychological distress,Age_group_5_year,55-64,Total,3.8
+2011,Psychological distress,Age_group_5_year,65-74,Female,3.8
+2011,Psychological distress,Age_group_5_year,65-74,Male,3.2
+2011,Psychological distress,Age_group_5_year,65-74,Total,3.5
+2011,Psychological distress,Age_group_5_year,75+,Female,3.7
+2011,Psychological distress,Age_group_5_year,75+,Male,3
+2011,Psychological distress,Age_group_5_year,75+,Total,3.4
+2011,Psychological distress,Ethnicity,Asian,Female,8.8
+2011,Psychological distress,Ethnicity,Asian,Male,3.4
+2011,Psychological distress,Ethnicity,Asian,Total,6.3
+2011,Psychological distress,Ethnicity,European/Other,Female,4.6
+2011,Psychological distress,Ethnicity,European/Other,Male,3.1
+2011,Psychological distress,Ethnicity,European/Other,Total,3.9
+2011,Psychological distress,Ethnicity,Māori,Female,8.7
+2011,Psychological distress,Ethnicity,Māori,Male,5.9
+2011,Psychological distress,Ethnicity,Māori,Total,7.4
+2011,Psychological distress,Ethnicity,Pacific,Female,8.7
+2011,Psychological distress,Ethnicity,Pacific,Male,8.2
+2011,Psychological distress,Ethnicity,Pacific,Total,8.5
+2011,Psychological distress,Quintile,Quintile 1,Female,2.2
+2011,Psychological distress,Quintile,Quintile 1,Male,1.8
+2011,Psychological distress,Quintile,Quintile 1,Total,2
+2011,Psychological distress,Quintile,Quintile 2,Female,4.4
+2011,Psychological distress,Quintile,Quintile 2,Male,2.4
+2011,Psychological distress,Quintile,Quintile 2,Total,3.4
+2011,Psychological distress,Quintile,Quintile 3,Female,4.4
+2011,Psychological distress,Quintile,Quintile 3,Male,2.9
+2011,Psychological distress,Quintile,Quintile 3,Total,3.7
+2011,Psychological distress,Quintile,Quintile 4,Female,7.2
+2011,Psychological distress,Quintile,Quintile 4,Male,5.1
+2011,Psychological distress,Quintile,Quintile 4,Total,6.2
+2011,Psychological distress,Quintile,Quintile 5,Female,8.5
+2011,Psychological distress,Quintile,Quintile 5,Male,6.7
+2011,Psychological distress,Quintile,Quintile 5,Total,7.7
+2011,Psychological distress,Total_population,Total,Female,5.4
+2011,Psychological distress,Total_population,Total,Male,3.7
+2011,Psychological distress,Total_population,Total,Total,4.5
+2012,Psychological distress,Age_group_5_year,15-24,Female,7.5
+2012,Psychological distress,Age_group_5_year,15-24,Male,6.2
+2012,Psychological distress,Age_group_5_year,15-24,Total,6.8
+2012,Psychological distress,Age_group_5_year,25-34,Female,6.7
+2012,Psychological distress,Age_group_5_year,25-34,Male,6.4
+2012,Psychological distress,Age_group_5_year,25-34,Total,6.6
+2012,Psychological distress,Age_group_5_year,35-44,Female,7.4
+2012,Psychological distress,Age_group_5_year,35-44,Male,5
+2012,Psychological distress,Age_group_5_year,35-44,Total,6.3
+2012,Psychological distress,Age_group_5_year,45-54,Female,7.7
+2012,Psychological distress,Age_group_5_year,45-54,Male,5.4
+2012,Psychological distress,Age_group_5_year,45-54,Total,6.6
+2012,Psychological distress,Age_group_5_year,55-64,Female,7.1
+2012,Psychological distress,Age_group_5_year,55-64,Male,4.3
+2012,Psychological distress,Age_group_5_year,55-64,Total,5.7
+2012,Psychological distress,Age_group_5_year,65-74,Female,4.6
+2012,Psychological distress,Age_group_5_year,65-74,Male,4.1
+2012,Psychological distress,Age_group_5_year,65-74,Total,4.4
+2012,Psychological distress,Age_group_5_year,75+,Female,4.5
+2012,Psychological distress,Age_group_5_year,75+,Male,6.1
+2012,Psychological distress,Age_group_5_year,75+,Total,5.2
+2012,Psychological distress,Ethnicity,Asian,Female,4.6
+2012,Psychological distress,Ethnicity,Asian,Male,5.4
+2012,Psychological distress,Ethnicity,Asian,Total,5
+2012,Psychological distress,Ethnicity,European/Other,Female,6.4
+2012,Psychological distress,Ethnicity,European/Other,Male,5.2
+2012,Psychological distress,Ethnicity,European/Other,Total,5.8
+2012,Psychological distress,Ethnicity,Māori,Female,11
+2012,Psychological distress,Ethnicity,Māori,Male,8.2
+2012,Psychological distress,Ethnicity,Māori,Total,9.7
+2012,Psychological distress,Ethnicity,Pacific,Female,12.6
+2012,Psychological distress,Ethnicity,Pacific,Male,5.7
+2012,Psychological distress,Ethnicity,Pacific,Total,9.4
+2012,Psychological distress,Quintile,Quintile 1,Female,5
+2012,Psychological distress,Quintile,Quintile 1,Male,3.3
+2012,Psychological distress,Quintile,Quintile 1,Total,4.2
+2012,Psychological distress,Quintile,Quintile 2,Female,5.6
+2012,Psychological distress,Quintile,Quintile 2,Male,4.6
+2012,Psychological distress,Quintile,Quintile 2,Total,5.1
+2012,Psychological distress,Quintile,Quintile 3,Female,4
+2012,Psychological distress,Quintile,Quintile 3,Male,5.1
+2012,Psychological distress,Quintile,Quintile 3,Total,4.5
+2012,Psychological distress,Quintile,Quintile 4,Female,8
+2012,Psychological distress,Quintile,Quintile 4,Male,5.8
+2012,Psychological distress,Quintile,Quintile 4,Total,6.9
+2012,Psychological distress,Quintile,Quintile 5,Female,11.3
+2012,Psychological distress,Quintile,Quintile 5,Male,8.8
+2012,Psychological distress,Quintile,Quintile 5,Total,10.2
+2012,Psychological distress,Total_population,Total,Female,6.8
+2012,Psychological distress,Total_population,Total,Male,5.4
+2012,Psychological distress,Total_population,Total,Total,6.1
+2013,Psychological distress,Age_group_5_year,15-24,Female,9.8
+2013,Psychological distress,Age_group_5_year,15-24,Male,4.8
+2013,Psychological distress,Age_group_5_year,15-24,Total,7.2
+2013,Psychological distress,Age_group_5_year,25-34,Female,7.4
+2013,Psychological distress,Age_group_5_year,25-34,Male,5.7
+2013,Psychological distress,Age_group_5_year,25-34,Total,6.6
+2013,Psychological distress,Age_group_5_year,35-44,Female,6.8
+2013,Psychological distress,Age_group_5_year,35-44,Male,6.1
+2013,Psychological distress,Age_group_5_year,35-44,Total,6.5
+2013,Psychological distress,Age_group_5_year,45-54,Female,8.5
+2013,Psychological distress,Age_group_5_year,45-54,Male,6.3
+2013,Psychological distress,Age_group_5_year,45-54,Total,7.4
+2013,Psychological distress,Age_group_5_year,55-64,Female,5.1
+2013,Psychological distress,Age_group_5_year,55-64,Male,4.6
+2013,Psychological distress,Age_group_5_year,55-64,Total,4.8
+2013,Psychological distress,Age_group_5_year,65-74,Female,5.2
+2013,Psychological distress,Age_group_5_year,65-74,Male,3.5
+2013,Psychological distress,Age_group_5_year,65-74,Total,4.4
+2013,Psychological distress,Age_group_5_year,75+,Female,5.1
+2013,Psychological distress,Age_group_5_year,75+,Male,2.9
+2013,Psychological distress,Age_group_5_year,75+,Total,4.1
+2013,Psychological distress,Ethnicity,Asian,Female,7.3
+2013,Psychological distress,Ethnicity,Asian,Male,1.9
+2013,Psychological distress,Ethnicity,Asian,Total,4.6
+2013,Psychological distress,Ethnicity,European/Other,Female,6.6
+2013,Psychological distress,Ethnicity,European/Other,Male,4.6
+2013,Psychological distress,Ethnicity,European/Other,Total,5.6
+2013,Psychological distress,Ethnicity,Māori,Female,9.9
+2013,Psychological distress,Ethnicity,Māori,Male,9
+2013,Psychological distress,Ethnicity,Māori,Total,9.5
+2013,Psychological distress,Ethnicity,Pacific,Female,13.9
+2013,Psychological distress,Ethnicity,Pacific,Male,12
+2013,Psychological distress,Ethnicity,Pacific,Total,13
+2013,Psychological distress,Quintile,Quintile 1,Female,5.5
+2013,Psychological distress,Quintile,Quintile 1,Male,1.6
+2013,Psychological distress,Quintile,Quintile 1,Total,3.6
+2013,Psychological distress,Quintile,Quintile 2,Female,6
+2013,Psychological distress,Quintile,Quintile 2,Male,5.5
+2013,Psychological distress,Quintile,Quintile 2,Total,5.7
+2013,Psychological distress,Quintile,Quintile 3,Female,7.1
+2013,Psychological distress,Quintile,Quintile 3,Male,5.8
+2013,Psychological distress,Quintile,Quintile 3,Total,6.5
+2013,Psychological distress,Quintile,Quintile 4,Female,7
+2013,Psychological distress,Quintile,Quintile 4,Male,5.7
+2013,Psychological distress,Quintile,Quintile 4,Total,6.4
+2013,Psychological distress,Quintile,Quintile 5,Female,10.4
+2013,Psychological distress,Quintile,Quintile 5,Male,7.2
+2013,Psychological distress,Quintile,Quintile 5,Total,8.9
+2013,Psychological distress,Total_population,Total,Female,7.2
+2013,Psychological distress,Total_population,Total,Male,5.1
+2013,Psychological distress,Total_population,Total,Total,6.2
+2014,Psychological distress,Age_group_5_year,15-24,Female,11
+2014,Psychological distress,Age_group_5_year,15-24,Male,4.3
+2014,Psychological distress,Age_group_5_year,15-24,Total,7.6
+2014,Psychological distress,Age_group_5_year,25-34,Female,10
+2014,Psychological distress,Age_group_5_year,25-34,Male,5.3
+2014,Psychological distress,Age_group_5_year,25-34,Total,7.7
+2014,Psychological distress,Age_group_5_year,35-44,Female,9.2
+2014,Psychological distress,Age_group_5_year,35-44,Male,5.3
+2014,Psychological distress,Age_group_5_year,35-44,Total,7.3
+2014,Psychological distress,Age_group_5_year,45-54,Female,6.2
+2014,Psychological distress,Age_group_5_year,45-54,Male,5
+2014,Psychological distress,Age_group_5_year,45-54,Total,5.6
+2014,Psychological distress,Age_group_5_year,55-64,Female,6
+2014,Psychological distress,Age_group_5_year,55-64,Male,4.5
+2014,Psychological distress,Age_group_5_year,55-64,Total,5.3
+2014,Psychological distress,Age_group_5_year,65-74,Female,4.4
+2014,Psychological distress,Age_group_5_year,65-74,Male,3.4
+2014,Psychological distress,Age_group_5_year,65-74,Total,3.9
+2014,Psychological distress,Age_group_5_year,75+,Female,3.3
+2014,Psychological distress,Age_group_5_year,75+,Male,3.3
+2014,Psychological distress,Age_group_5_year,75+,Total,3.3
+2014,Psychological distress,Ethnicity,Asian,Female,7.7
+2014,Psychological distress,Ethnicity,Asian,Male,3.2
+2014,Psychological distress,Ethnicity,Asian,Total,5.5
+2014,Psychological distress,Ethnicity,European/Other,Female,7
+2014,Psychological distress,Ethnicity,European/Other,Male,4.4
+2014,Psychological distress,Ethnicity,European/Other,Total,5.7
+2014,Psychological distress,Ethnicity,Māori,Female,11.7
+2014,Psychological distress,Ethnicity,Māori,Male,7.3
+2014,Psychological distress,Ethnicity,Māori,Total,9.6
+2014,Psychological distress,Ethnicity,Pacific,Female,10.3
+2014,Psychological distress,Ethnicity,Pacific,Male,10
+2014,Psychological distress,Ethnicity,Pacific,Total,10.2
+2014,Psychological distress,Quintile,Quintile 1,Female,3.8
+2014,Psychological distress,Quintile,Quintile 1,Male,2.6
+2014,Psychological distress,Quintile,Quintile 1,Total,3.2
+2014,Psychological distress,Quintile,Quintile 2,Female,5.7
+2014,Psychological distress,Quintile,Quintile 2,Male,3.2
+2014,Psychological distress,Quintile,Quintile 2,Total,4.5
+2014,Psychological distress,Quintile,Quintile 3,Female,6.9
+2014,Psychological distress,Quintile,Quintile 3,Male,4.3
+2014,Psychological distress,Quintile,Quintile 3,Total,5.7
+2014,Psychological distress,Quintile,Quintile 4,Female,10.3
+2014,Psychological distress,Quintile,Quintile 4,Male,5
+2014,Psychological distress,Quintile,Quintile 4,Total,7.8
+2014,Psychological distress,Quintile,Quintile 5,Female,11.3
+2014,Psychological distress,Quintile,Quintile 5,Male,8.2
+2014,Psychological distress,Quintile,Quintile 5,Total,9.8
+2014,Psychological distress,Total_population,Total,Female,7.6
+2014,Psychological distress,Total_population,Total,Male,4.6
+2014,Psychological distress,Total_population,Total,Total,6.2
+2015,Psychological distress,Age_group_5_year,15-24,Female,11.7
+2015,Psychological distress,Age_group_5_year,15-24,Male,6
+2015,Psychological distress,Age_group_5_year,15-24,Total,8.8
+2015,Psychological distress,Age_group_5_year,25-34,Female,11.1
+2015,Psychological distress,Age_group_5_year,25-34,Male,5.6
+2015,Psychological distress,Age_group_5_year,25-34,Total,8.4
+2015,Psychological distress,Age_group_5_year,35-44,Female,10.7
+2015,Psychological distress,Age_group_5_year,35-44,Male,5.3
+2015,Psychological distress,Age_group_5_year,35-44,Total,8.1
+2015,Psychological distress,Age_group_5_year,45-54,Female,8.1
+2015,Psychological distress,Age_group_5_year,45-54,Male,5.5
+2015,Psychological distress,Age_group_5_year,45-54,Total,6.8
+2015,Psychological distress,Age_group_5_year,55-64,Female,5.8
+2015,Psychological distress,Age_group_5_year,55-64,Male,4.5
+2015,Psychological distress,Age_group_5_year,55-64,Total,5.2
+2015,Psychological distress,Age_group_5_year,65-74,Female,4.5
+2015,Psychological distress,Age_group_5_year,65-74,Male,2.7
+2015,Psychological distress,Age_group_5_year,65-74,Total,3.6
+2015,Psychological distress,Age_group_5_year,75+,Female,4.3
+2015,Psychological distress,Age_group_5_year,75+,Male,3.8
+2015,Psychological distress,Age_group_5_year,75+,Total,4.1
+2015,Psychological distress,Ethnicity,Asian,Female,8.3
+2015,Psychological distress,Ethnicity,Asian,Male,4.1
+2015,Psychological distress,Ethnicity,Asian,Total,6.1
+2015,Psychological distress,Ethnicity,European/Other,Female,7.9
+2015,Psychological distress,Ethnicity,European/Other,Male,4.7
+2015,Psychological distress,Ethnicity,European/Other,Total,6.4
+2015,Psychological distress,Ethnicity,Māori,Female,13.3
+2015,Psychological distress,Ethnicity,Māori,Male,7.5
+2015,Psychological distress,Ethnicity,Māori,Total,10.5
+2015,Psychological distress,Ethnicity,Pacific,Female,14.1
+2015,Psychological distress,Ethnicity,Pacific,Male,7.8
+2015,Psychological distress,Ethnicity,Pacific,Total,11.2
+2015,Psychological distress,Quintile,Quintile 1,Female,4.4
+2015,Psychological distress,Quintile,Quintile 1,Male,3.2
+2015,Psychological distress,Quintile,Quintile 1,Total,3.8
+2015,Psychological distress,Quintile,Quintile 2,Female,6.6
+2015,Psychological distress,Quintile,Quintile 2,Male,3.5
+2015,Psychological distress,Quintile,Quintile 2,Total,5.1
+2015,Psychological distress,Quintile,Quintile 3,Female,8.6
+2015,Psychological distress,Quintile,Quintile 3,Male,4.6
+2015,Psychological distress,Quintile,Quintile 3,Total,6.6
+2015,Psychological distress,Quintile,Quintile 4,Female,9.2
+2015,Psychological distress,Quintile,Quintile 4,Male,5.5
+2015,Psychological distress,Quintile,Quintile 4,Total,7.5
+2015,Psychological distress,Quintile,Quintile 5,Female,14.1
+2015,Psychological distress,Quintile,Quintile 5,Male,8.7
+2015,Psychological distress,Quintile,Quintile 5,Total,11.5
+2015,Psychological distress,Total_population,Total,Female,8.6
+2015,Psychological distress,Total_population,Total,Male,5
+2015,Psychological distress,Total_population,Total,Total,6.8
+2016,Psychological distress,Age_group_5_year,15-24,Female,15.3
+2016,Psychological distress,Age_group_5_year,15-24,Male,8.6
+2016,Psychological distress,Age_group_5_year,15-24,Total,11.8
+2016,Psychological distress,Age_group_5_year,25-34,Female,9.7
+2016,Psychological distress,Age_group_5_year,25-34,Male,7.9
+2016,Psychological distress,Age_group_5_year,25-34,Total,8.8
+2016,Psychological distress,Age_group_5_year,35-44,Female,6.7
+2016,Psychological distress,Age_group_5_year,35-44,Male,5.9
+2016,Psychological distress,Age_group_5_year,35-44,Total,6.3
+2016,Psychological distress,Age_group_5_year,45-54,Female,8
+2016,Psychological distress,Age_group_5_year,45-54,Male,5.4
+2016,Psychological distress,Age_group_5_year,45-54,Total,6.7
+2016,Psychological distress,Age_group_5_year,55-64,Female,6.9
+2016,Psychological distress,Age_group_5_year,55-64,Male,6.3
+2016,Psychological distress,Age_group_5_year,55-64,Total,6.6
+2016,Psychological distress,Age_group_5_year,65-74,Female,6.7
+2016,Psychological distress,Age_group_5_year,65-74,Male,4.1
+2016,Psychological distress,Age_group_5_year,65-74,Total,5.4
+2016,Psychological distress,Age_group_5_year,75+,Female,4.1
+2016,Psychological distress,Age_group_5_year,75+,Male,4.4
+2016,Psychological distress,Age_group_5_year,75+,Total,4.3
+2016,Psychological distress,Ethnicity,Asian,Female,6.2
+2016,Psychological distress,Ethnicity,Asian,Male,4.9
+2016,Psychological distress,Ethnicity,Asian,Total,5.5
+2016,Psychological distress,Ethnicity,European/Other,Female,8.2
+2016,Psychological distress,Ethnicity,European/Other,Male,6.5
+2016,Psychological distress,Ethnicity,European/Other,Total,7.3
+2016,Psychological distress,Ethnicity,Māori,Female,14.2
+2016,Psychological distress,Ethnicity,Māori,Male,8.6
+2016,Psychological distress,Ethnicity,Māori,Total,11.5
+2016,Psychological distress,Ethnicity,Pacific,Female,17.2
+2016,Psychological distress,Ethnicity,Pacific,Male,6
+2016,Psychological distress,Ethnicity,Pacific,Total,11.8
+2016,Psychological distress,Quintile,Quintile 1,Female,4.7
+2016,Psychological distress,Quintile,Quintile 1,Male,4.8
+2016,Psychological distress,Quintile,Quintile 1,Total,4.8
+2016,Psychological distress,Quintile,Quintile 2,Female,7
+2016,Psychological distress,Quintile,Quintile 2,Male,3.1
+2016,Psychological distress,Quintile,Quintile 2,Total,5
+2016,Psychological distress,Quintile,Quintile 3,Female,7.5
+2016,Psychological distress,Quintile,Quintile 3,Male,6.9
+2016,Psychological distress,Quintile,Quintile 3,Total,7.2
+2016,Psychological distress,Quintile,Quintile 4,Female,11
+2016,Psychological distress,Quintile,Quintile 4,Male,8
+2016,Psychological distress,Quintile,Quintile 4,Total,9.5
+2016,Psychological distress,Quintile,Quintile 5,Female,13
+2016,Psychological distress,Quintile,Quintile 5,Male,9.9
+2016,Psychological distress,Quintile,Quintile 5,Total,11.5
+2016,Psychological distress,Total_population,Total,Female,8.7
+2016,Psychological distress,Total_population,Total,Male,6.4
+2016,Psychological distress,Total_population,Total,Total,7.6
+2017,Psychological distress,Age_group_5_year,15-24,Female,17.3
+2017,Psychological distress,Age_group_5_year,15-24,Male,9.4
+2017,Psychological distress,Age_group_5_year,15-24,Total,13.2
+2017,Psychological distress,Age_group_5_year,25-34,Female,12.1
+2017,Psychological distress,Age_group_5_year,25-34,Male,8.3
+2017,Psychological distress,Age_group_5_year,25-34,Total,10.2
+2017,Psychological distress,Age_group_5_year,35-44,Female,7.8
+2017,Psychological distress,Age_group_5_year,35-44,Male,6.7
+2017,Psychological distress,Age_group_5_year,35-44,Total,7.3
+2017,Psychological distress,Age_group_5_year,45-54,Female,9
+2017,Psychological distress,Age_group_5_year,45-54,Male,7.7
+2017,Psychological distress,Age_group_5_year,45-54,Total,8.4
+2017,Psychological distress,Age_group_5_year,55-64,Female,7.8
+2017,Psychological distress,Age_group_5_year,55-64,Male,7.1
+2017,Psychological distress,Age_group_5_year,55-64,Total,7.4
+2017,Psychological distress,Age_group_5_year,65-74,Female,6.2
+2017,Psychological distress,Age_group_5_year,65-74,Male,3.3
+2017,Psychological distress,Age_group_5_year,65-74,Total,4.8
+2017,Psychological distress,Age_group_5_year,75+,Female,6.5
+2017,Psychological distress,Age_group_5_year,75+,Male,3.9
+2017,Psychological distress,Age_group_5_year,75+,Total,5.3
+2017,Psychological distress,Ethnicity,Asian,Female,6.5
+2017,Psychological distress,Ethnicity,Asian,Male,4.6
+2017,Psychological distress,Ethnicity,Asian,Total,5.6
+2017,Psychological distress,Ethnicity,European/Other,Female,9.9
+2017,Psychological distress,Ethnicity,European/Other,Male,7.3
+2017,Psychological distress,Ethnicity,European/Other,Total,8.6
+2017,Psychological distress,Ethnicity,Māori,Female,17.5
+2017,Psychological distress,Ethnicity,Māori,Male,9.9
+2017,Psychological distress,Ethnicity,Māori,Total,13.9
+2017,Psychological distress,Ethnicity,Pacific,Female,11.5
+2017,Psychological distress,Ethnicity,Pacific,Male,10.6
+2017,Psychological distress,Ethnicity,Pacific,Total,11
+2017,Psychological distress,Quintile,Quintile 1,Female,6.1
+2017,Psychological distress,Quintile,Quintile 1,Male,5.5
+2017,Psychological distress,Quintile,Quintile 1,Total,5.8
+2017,Psychological distress,Quintile,Quintile 2,Female,6.5
+2017,Psychological distress,Quintile,Quintile 2,Male,5.1
+2017,Psychological distress,Quintile,Quintile 2,Total,5.8
+2017,Psychological distress,Quintile,Quintile 3,Female,10
+2017,Psychological distress,Quintile,Quintile 3,Male,6.6
+2017,Psychological distress,Quintile,Quintile 3,Total,8.3
+2017,Psychological distress,Quintile,Quintile 4,Female,14
+2017,Psychological distress,Quintile,Quintile 4,Male,8.4
+2017,Psychological distress,Quintile,Quintile 4,Total,11.2
+2017,Psychological distress,Quintile,Quintile 5,Female,13.5
+2017,Psychological distress,Quintile,Quintile 5,Male,10.3
+2017,Psychological distress,Quintile,Quintile 5,Total,12
+2017,Psychological distress,Total_population,Total,Female,10
+2017,Psychological distress,Total_population,Total,Male,7.1
+2017,Psychological distress,Total_population,Total,Total,8.6

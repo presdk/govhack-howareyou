@@ -1,0 +1,42 @@
+,1,2,3,5,6,7
+0,Highest qualification,Age group (Life-stages),Sex,Total,  0 - 6,  7 - 10
+2,No Qualification,15 - 24,Male,49000,12000,37000
+3,No Qualification,15 - 24,Female,54000,10000,43000
+4,No Qualification,25 - 44,Male,71000,21000,50000
+5,No Qualification,25 - 44,Female,47000,11000,36000
+6,No Qualification,45 - 64,Male,92000,17000,75000
+7,No Qualification,45 - 64,Female,110000,19000,91000
+8,No Qualification,65+,Male,75000,9000,66000
+9,No Qualification,65+,Female,135000,16000,118000
+10,Certificate,15 - 24,Male,220000,30000,190000
+11,Certificate,15 - 24,Female,191000,29000,161000
+12,Certificate,25 - 44,Male,250000,31000,219000
+13,Certificate,25 - 44,Female,213000,34000,179000
+14,Certificate,45 - 64,Male,222000,23000,199000
+15,Certificate,45 - 64,Female,240000,30000,210000
+16,Certificate,65+,Male,115000,8000,107000
+17,Certificate,65+,Female,90000,12000,77000
+18,Diploma,15 - 24,Male,20000,9000,11000
+19,Diploma,15 - 24,Female,15000,..,14000
+20,Diploma,25 - 44,Male,55000,8000,47000
+21,Diploma,25 - 44,Female,75000,10000,66000
+22,Diploma,45 - 64,Male,63000,5000,58000
+23,Diploma,45 - 64,Female,74000,6000,68000
+24,Diploma,65+,Male,35000,1000,34000
+25,Diploma,65+,Female,46000,5000,41000
+26,Bachelor's degree,15 - 24,Male,16000,..,13000
+27,Bachelor's degree,15 - 24,Female,34000,7000,27000
+28,Bachelor's degree,25 - 44,Male,90000,9000,81000
+29,Bachelor's degree,25 - 44,Female,149000,12000,137000
+30,Bachelor's degree,45 - 64,Male,73000,7000,66000
+31,Bachelor's degree,45 - 64,Female,75000,10000,64000
+32,Bachelor's degree,65+,Male,24000,7000,17000
+33,Bachelor's degree,65+,Female,19000,..,18000
+34,Postgraduate qualification,15 - 24,Male,..,..,..
+35,Postgraduate qualification,15 - 24,Female,6000,..,6000
+36,Postgraduate qualification,25 - 44,Male,67000,7000,60000
+37,Postgraduate qualification,25 - 44,Female,91000,5000,86000
+38,Postgraduate qualification,45 - 64,Male,74000,6000,68000
+39,Postgraduate qualification,45 - 64,Female,60000,6000,55000
+40,Postgraduate qualification,65+,Male,18000,..,18000
+41,Postgraduate qualification,65+,Female,14000,..,13000
