@@ -1,0 +1,2 @@
+,model,parameters,accuracy
+0,Perceptron,"{'alpha': 0.001, 'class_weight': None, 'eta0': 1.0, 'fit_intercept': True, 'max_iter': None, 'n_iter': None, 'n_jobs': 1, 'penalty': None, 'random_state': 9000, 'shuffle': True, 'tol': None, 'verbose': 0, 'warm_start': False}",0.6044034090909091

@@ -1,0 +1,42 @@
+,1,2,3,5,6,7
+0,Highest qualification,Age group (Life-stages),Sex,  0 - 6,  7 - 10,Total
+2,No Qualification,15 - 24,Male,7000,41000,48000
+3,No Qualification,15 - 24,Female,11000,43000,54000
+4,No Qualification,25 - 44,Male,22000,49000,71000
+5,No Qualification,25 - 44,Female,17000,31000,48000
+6,No Qualification,45 - 64,Male,24000,68000,92000
+7,No Qualification,45 - 64,Female,30000,80000,110000
+8,No Qualification,65+,Male,13000,63000,76000
+9,No Qualification,65+,Female,24000,112000,136000
+10,Certificate,15 - 24,Male,35000,185000,220000
+11,Certificate,15 - 24,Female,27000,164000,191000
+12,Certificate,25 - 44,Male,44000,207000,250000
+13,Certificate,25 - 44,Female,50000,163000,213000
+14,Certificate,45 - 64,Male,41000,181000,222000
+15,Certificate,45 - 64,Female,50000,189000,240000
+16,Certificate,65+,Male,15000,100000,116000
+17,Certificate,65+,Female,14000,76000,90000
+18,Diploma,15 - 24,Male,8000,12000,20000
+19,Diploma,15 - 24,Female,4000,11000,15000
+20,Diploma,25 - 44,Male,9000,46000,56000
+21,Diploma,25 - 44,Female,13000,63000,75000
+22,Diploma,45 - 64,Male,8000,55000,63000
+23,Diploma,45 - 64,Female,14000,60000,74000
+24,Diploma,65+,Male,3000,32000,35000
+25,Diploma,65+,Female,7000,39000,46000
+26,Bachelor degree,15 - 24,Male,6000,10000,16000
+27,Bachelor degree,15 - 24,Female,3000,30000,34000
+28,Bachelor degree,25 - 44,Male,10000,80000,90000
+29,Bachelor degree,25 - 44,Female,17000,132000,149000
+30,Bachelor degree,45 - 64,Male,12000,61000,73000
+31,Bachelor degree,45 - 64,Female,15000,59000,75000
+32,Bachelor degree,65+,Male,3000,21000,24000
+33,Bachelor degree,65+,Female,1000,18000,19000
+34,Postgraduate degree,15 - 24,Male,..,..,..
+35,Postgraduate degree,15 - 24,Female,..,6000,6000
+36,Postgraduate degree,25 - 44,Male,5000,62000,67000
+37,Postgraduate degree,25 - 44,Female,7000,84000,91000
+38,Postgraduate degree,45 - 64,Male,8000,66000,74000
+39,Postgraduate degree,45 - 64,Female,9000,52000,60000
+40,Postgraduate degree,65+,Male,..,18000,18000
+41,Postgraduate degree,65+,Female,2000,12000,14000

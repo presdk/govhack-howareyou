@@ -1,0 +1,34 @@
+,1,2,3,5,6,7
+0,Family type,Age group,Sex,Total,  0 - 6,  7 - 10
+2,Couple without child(ren),15 - 24,Male,22000,..,18000
+3,Couple without child(ren),15 - 24,Female,41000,5000,36000
+4,Couple without child(ren),25 - 44,Male,112000,14000,98000
+5,Couple without child(ren),25 - 44,Female,109000,13000,96000
+6,Couple without child(ren),45 - 64,Male,198000,20000,178000
+7,Couple without child(ren),45 - 64,Female,221000,19000,201000
+8,Couple without child(ren),65+,Male,195000,15000,181000
+9,Couple without child(ren),65+,Female,157000,14000,143000
+10,Couple with child(ren),15 - 24,Male,172000,27000,145000
+11,Couple with child(ren),15 - 24,Female,156000,20000,136000
+12,Couple with child(ren),25 - 44,Male,294000,30000,264000
+13,Couple with child(ren),25 - 44,Female,308000,32000,277000
+14,Couple with child(ren),45 - 64,Male,247000,15000,232000
+15,Couple with child(ren),45 - 64,Female,201000,24000,176000
+16,Couple with child(ren),65+,Male,28000,..,26000
+17,Couple with child(ren),65+,Female,9000,..,6000
+18,One parent with child(ren),15 - 24,Male,46000,8000,37000
+19,One parent with child(ren),15 - 24,Female,54000,13000,41000
+20,One parent with child(ren),25 - 44,Male,33000,8000,25000
+21,One parent with child(ren),25 - 44,Female,105000,18000,86000
+22,One parent with child(ren),45 - 64,Male,23000,4000,19000
+23,One parent with child(ren),45 - 64,Female,71000,15000,56000
+24,One parent with child(ren),65+,Male,5000,..,4000
+25,One parent with child(ren),65+,Female,17000,3000,14000
+26,Not in a family nucleus,15 - 24,Male,79000,16000,63000
+27,Not in a family nucleus,15 - 24,Female,52000,11000,41000
+28,Not in a family nucleus,25 - 44,Male,109000,28000,81000
+29,Not in a family nucleus,25 - 44,Female,75000,12000,63000
+30,Not in a family nucleus,45 - 64,Male,84000,20000,64000
+31,Not in a family nucleus,45 - 64,Female,100000,16000,84000
+32,Not in a family nucleus,65+,Male,62000,8000,54000
+33,Not in a family nucleus,65+,Female,143000,18000,125000
