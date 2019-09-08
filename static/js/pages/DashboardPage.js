@@ -29,7 +29,7 @@ const DashboardPage = () => {
   return (
     <div className="columns is-multiline">
       <div className="column is-12" style={{ marginBottom: "1em" }}>
-        <Icon style={{ fontSize: "2em" }} type="user" /> Friends
+        <Icon className="is-size-3" type="user" /> <span className="is-size-3">Friends</span>
       </div>
       <div className="column is-12">
         <div className="columns is-multiline">

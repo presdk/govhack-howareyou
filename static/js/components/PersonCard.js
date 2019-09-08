@@ -1,7 +1,7 @@
 import React from "react";
 import Dot from "./Dot";
 import styled from "styled-components";
-import { Card } from 'antd';
+import { Card } from "antd";
 const { Meta } = Card;
 
 const VerticallyCentered = styled.div`
@@ -21,14 +21,13 @@ const PersonCard = props => {
         hoverable
         cover={
           <img
-            style={{height: '30vh', width: 'auto'}}
             alt="example"
             src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
           />
         }
       >
-        <Meta title={name} description={name} />
-        <Dot color={dotColor} />
+        <Meta title={name} style={{marginBottom: '0.5em'}} />
+        <Meta title={<Dot color={dotColor}/>} />
       </Card>
     </VerticallyCentered>
   );

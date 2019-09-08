@@ -23,13 +23,15 @@ const CompletedPage = () => {
     <div className="columns">
       <div className="column is-half is-offset-one-quarter has-text-centered">
         <div>
-          <Smiley />
+          <p>
+            <Smiley />
+          </p>
         </div>
         <div>
-          <p>Assessment Completed</p>
+          <p className="is-size-4">Assessment Completed</p>
         </div>
         <hr />
-        <div>
+        <div className="is-size-4">
           <p>Share your results!</p>
         </div>
         <div>
