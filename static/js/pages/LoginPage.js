@@ -35,7 +35,7 @@ const LoginPage = () => {
       <FacebookLogin
         appId="2391165474312244"
         autoLoad={true}
-        fields="name,email,picture"
+        fields="name, email, picture"
         callback={responseFacebook}
       />
     </div>

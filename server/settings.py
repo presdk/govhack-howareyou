@@ -40,10 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_django',
+    'statistic',
     'rest_social_auth',
     'facebook_auth',
-    'statistic',
     'webpack_loader',
+    'rest_framework',
 ]
 
 WEBPACK_LOADER = {
@@ -167,7 +168,6 @@ SOCIAL_AUTH_FACEBOOK_SCOPE = ['email',
                               'user_hometown',
                               'user_location',
 ]
-
 
 SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
     ('name', 'name'),
