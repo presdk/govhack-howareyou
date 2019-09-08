@@ -62,11 +62,11 @@ const CompletedPage = () => {
         Thanks for sharing!
       </div>
       <hr />
-      <div className="column is-12 is-size-4 has-text-centered">
+      <div
+        className="column is-12 is-size-4 has-text-centered"
+        style={{ marginBottom: "2em" }}
+      >
         Here are some interesting facts
-      </div>
-      <div className="column is-12 is-size-4 has-text-centered">
-        <a className="button is-primary is-link is-rounded is-medium">Share</a>
       </div>
       {results.map((result, index) => {
         const { title, description, first, second } = result;
@@ -82,6 +82,16 @@ const CompletedPage = () => {
                     { title: first[0], value: first[1], color: "#E38627" },
                     { title: second[0], value: second[1], color: "#C13C37" }
                   ]}
+                  lineWidth={20}
+                  paddingAngle={18}
+                  rounded
+                  label
+                  labelStyle={{
+                    fontSize: "0.5em",
+                    fontFamily: "sans-serif"
+                  }}
+                  labelPosition={60}
+                  style={{ height: "200px" }}
                 />
               </div>
               <div className="column is-6">
