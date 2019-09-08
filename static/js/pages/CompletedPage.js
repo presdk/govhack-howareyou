@@ -1,13 +1,13 @@
 import React from "react";
 import PieChart from "react-minimal-pie-chart";
+import MainLogo from "../components/MainLogo";
+import { Link } from "react-router-dom";
 
 const Smiley = () => {
   return (
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
-      width="128px"
-      height="128px"
-    ></img>
+    <span style={{ fontSize: "5em" }}>
+      <strong>😊</strong>
+    </span>
   );
 };
 
@@ -53,6 +53,9 @@ const CompletedPage = () => {
 
   return (
     <div className="columns is-multiline">
+      <div className="column is-12 has-text-centered">
+        <MainLogo />
+      </div>
       <div className="column is-half is-offset-one-quarter has-text-centered">
         <p>
           <Smiley />
@@ -102,6 +105,14 @@ const CompletedPage = () => {
           </div>
         );
       })}
+      <div className="column">
+        <Link
+          class="button is-pulled-right is-link is-outlined"
+          to="/dashboard"
+        >
+          Go to dashboard
+        </Link>
+      </div>
     </div>
   );
 };

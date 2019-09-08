@@ -24,19 +24,19 @@ const StartPage = () => {
   const fields = [
     {
       title: "Age",
-      options: ["Option 1", "Option 2"]
+      options: ["0-10", "11-20", "21-30", "31-40", "41-50", "51+"]
     },
     {
       title: "Gender",
-      options: ["Option 1", "Option 2"]
+      options: ["Male", "Female", "Other"]
     },
     {
       title: "Ethnicity",
-      options: ["Option 1", "Option 2"]
+      options: ["Asian", "Dummy"]
     },
     {
       title: "Region",
-      options: ["Option 1", "Option 2"]
+      options: ["Auckland", "Wellington", "Dummy"]
     }
   ];
 
@@ -61,7 +61,7 @@ const StartPage = () => {
           })}
         </div>
         <p>
-          <a className="button is-link">Submit</a>
+          <Link to="/completed" className="button is-link">Submit</Link>
         </p>
       </div>
     </div>

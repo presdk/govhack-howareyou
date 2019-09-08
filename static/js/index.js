@@ -8,13 +8,11 @@ import LoginPage from "./pages/LoginPage";
 import 'antd/dist/antd.css';
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   return (
     <div className="container" style={{ paddingTop: "15vh" }}>
       <Router>
         <Route exact path="/" component={() => <StartPage />} />
-        <Route exact path="/login" component={() => <LoginPage />} />
+        <Route exact path="/login" component={() => <LoginPage handleLogin={handleLogin} />} />
         <Route exact path="/completed" component={() => <CompletedPage />} />
         <Route exact path="/dashboard" component={() => <DashboardPage />} />
       </Router>
