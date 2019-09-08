@@ -44,8 +44,6 @@ INSTALLED_APPS = [
     'facebook_auth',
     'statistic',
     'webpack_loader',
-    'drf_braces',
-    'rest_framework',
 ]
 
 WEBPACK_LOADER = {
