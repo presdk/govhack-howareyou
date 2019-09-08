@@ -4,7 +4,7 @@ import MainLogo from "../components/MainLogo";
 import DropdownField from "../components/DropdownField";
 
 async function fetchData() {
-  return await fetch("https://govhack.cheez.dev/me")
+  return await fetch("https://govhack.cheez.dev/me/")
     .then(response => {
       console.log(response);
       return response.json();
@@ -23,15 +23,19 @@ const StartPage = () => {
 
   const fields = [
     {
-      title: "Subject",
+      title: "Age",
       options: ["Option 1", "Option 2"]
     },
     {
-      title: "Subject",
+      title: "Gender",
       options: ["Option 1", "Option 2"]
     },
     {
-      title: "Subject",
+      title: "Ethnicity",
+      options: ["Option 1", "Option 2"]
+    },
+    {
+      title: "Region",
       options: ["Option 1", "Option 2"]
     }
   ];
@@ -39,15 +43,7 @@ const StartPage = () => {
   return (
     <div className="columns">
       <div className="column is-half is-offset-one-quarter">
-        <div>
-          <MainLogo />
-        </div>
-        <div>
-          <Link to="/completed">To completed</Link>
-        </div>
-        <div>
-          <Link to="/dashboard">To dashboard</Link>
-        </div>
+        <p className="is-size-3">Create Your Profile</p>
         <div style={{ marginBottom: "1em" }}>
           {fields.map((field, index) => {
             return (

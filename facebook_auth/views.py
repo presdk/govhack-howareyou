@@ -6,11 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 
 def login(request):
-    if request.user.is_authenticated:
-        redirect()
-    else:
-        return render(request, 'facebook_auth/login.html')
-
+    return index(request)
 
 @login_required
 def get_user_info(request):
@@ -22,7 +18,5 @@ def get_user_info(request):
                             content_type="application/json",
                             content={"error": "User is not authenticated."})
 
-
-#@login_required
 def index(request):
     return render(request, 'pages/index.html')
