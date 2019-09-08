@@ -5,13 +5,10 @@ from enum import Enum
 
 # Age Group
 class AgeGroupChoice(Enum):
-    C03A = "15-24"
-    C03B = "25-34"
-    C03C = "35-44"
-    C03D = "45-54"
-    C03E = "55-64"
-    C03F = "65-74"
-    C03G = "75~"
+    C02A = "15-24"
+    C02B = "25-44"
+    C02C = "45-64"
+    C02D = "65+"
 
 
 # Gender Group
@@ -50,22 +47,22 @@ class SubmittedData(models.Model):
 
     age_grp = models.CharField(
         max_length=5,
-        choices=[(tag, tag.value) for tag in AgeGroupChoice],
+        choices=[(tag.name, tag.value) for tag in AgeGroupChoice],
         default="0"
     )
     gender_grp = models.CharField(
         max_length=5,
-        choices=[(tag, tag.value) for tag in GenderGroupChoice],
+        choices=[(tag.name, tag.value) for tag in GenderGroupChoice],
         default="0"
     )
     ethnic_grp = models.CharField(
         max_length=5,
-        choices=[(tag, tag.value) for tag in EthnicityGroupChoice],
+        choices=[(tag.name, tag.value) for tag in EthnicityGroupChoice],
         default="0"
     )
     region_grp = models.CharField(
         max_length=5,
-        choices=[(tag, tag.value) for tag in RegionGroupChoice],
+        choices=[(tag.name, tag.value) for tag in RegionGroupChoice],
         default="0"
     )
 

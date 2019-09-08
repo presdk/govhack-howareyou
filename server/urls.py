@@ -19,5 +19,6 @@ urlpatterns = [
     path('api/login/', include('rest_social_auth.urls_session', )),
     path('api/login/', include('rest_social_auth.urls_token', )),
 
-    path('check/', st_view.form_action, name="CheckDepression")
+    path('check/', st_view.form_action, name="CheckDepression"),
+    path('form_test/', st_view.get_form),
 ]
