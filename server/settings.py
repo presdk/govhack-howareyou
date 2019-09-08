@@ -45,10 +45,8 @@ INSTALLED_APPS = [
     'facebook_auth',
     'webpack_loader',
     'rest_framework',
-    'numpy',
     'pandas',
     'sklearn',
-
 ]
 
 WEBPACK_LOADER = {
