@@ -1,0 +1,14 @@
+,1,2,4,5,6
+0,Labour Force Status,Personal Income,Total,  0 - 6,  7 - 10
+2,Employed,"$30,000 or less",690000,144000,546000
+3,Employed,"$30,001-$70,000",1143000,184000,959000
+4,Employed,"$70,001-$100,000",281000,21000,260000
+5,Employed,"$100,001 or more",244000,18000,225000
+6,Unemployed,"$30,000 or less",112000,35000,77000
+7,Unemployed,"$30,001-$70,000",18000,4000,14000
+8,Unemployed,"$70,001-$100,000",..,..,..
+9,Unemployed,"$100,001 or more",2000,..,..
+10,Not in the labour force,"$30,000 or less",900000,191000,710000
+11,Not in the labour force,"$30,001-$70,000",110000,15000,95000
+12,Not in the labour force,"$70,001-$100,000",14000,..,13000
+13,Not in the labour force,"$100,001 or more",11000,..,11000
