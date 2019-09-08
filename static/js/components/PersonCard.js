@@ -17,7 +17,7 @@ const PersonCard = props => {
 
   return (
     <VerticallyCentered style={{ marginBottom: "1em" }}>
-      <Card
+      <Card 
         hoverable
         cover={
           <img
@@ -27,7 +27,7 @@ const PersonCard = props => {
         }
       >
         <Meta title={name} style={{marginBottom: '0.5em'}} />
-        <Meta title={<Dot color={dotColor}/>} />
+        <Meta title={<Dot color={dotColor} />}/>
       </Card>
     </VerticallyCentered>
   );

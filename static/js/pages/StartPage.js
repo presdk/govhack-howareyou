@@ -41,10 +41,13 @@ const StartPage = () => {
   ];
 
   return (
-    <div className="columns">
+    <div className="columns is-multiline is-centered">
+      <div className="column is-12 has-text-centered">
+        <MainLogo />
+      </div>
       <div className="column is-half is-offset-one-quarter">
-        <p className="is-size-3">Create Your Profile</p>
-        <div style={{ marginBottom: "1em" }}>
+        <p className="is-size-4">Create Your Profile</p>
+        <div>
           {fields.map((field, index) => {
             return (
               <p>
@@ -57,9 +60,9 @@ const StartPage = () => {
             );
           })}
         </div>
-        <div>
+        <p>
           <a className="button is-link">Submit</a>
-        </div>
+        </p>
       </div>
     </div>
   );

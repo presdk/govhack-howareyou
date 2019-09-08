@@ -3,10 +3,8 @@ import React from "react";
 const DropdownField = ({ title, options }) => {
   return (
     <div className="field">
-      <p>
-        <label className="label is-inline">{title}</label>
-      </p>
       <div className="control">
+          <label style={{marginRight: '1em'}} className="label is-inline">{title}</label>
         <div className="select">
           <select>
             {options.map(option => (

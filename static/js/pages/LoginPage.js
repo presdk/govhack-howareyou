@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import FacebookLogin from "react-facebook-login";
+import MainLogo from '../components/MainLogo';
 
 const responseFacebook = response => {
   console.log(response);
@@ -28,10 +29,13 @@ const LoginPage = () => {
   });
 
   return (
-    <div className="columns is-multiline">
+    <div className="columns is-multiline is-vcentered">
+      <div className="column is-12 has-text-centered">
+        <MainLogo />
+      </div>
       <div className="column is-12 is-size-3 has-text-centered">
         Sign In
-      </div>
+      </div >
       <div className="column is-half is-offset-one-quarter has-text-centered">
         <FacebookLogin
           className="is-text-center"
