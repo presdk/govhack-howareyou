@@ -2,9 +2,11 @@ import React from "react";
 
 const DropdownField = ({ title, options }) => {
   return (
-    <div className="field">
-      <label className="label is-inline">{title}</label>
-      <div className="control">
+    <div>
+      <p style={{marginBottom: '1.5em'}}>
+        <label className="label">
+          {title}
+        </label>
         <div className="select">
           <select>
             {options.map(option => (
@@ -12,7 +14,7 @@ const DropdownField = ({ title, options }) => {
             ))}
           </select>
         </div>
-      </div>
+      </p>
     </div>
   );
 };

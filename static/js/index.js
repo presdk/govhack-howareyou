@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import StartPage from "./pages/StartPage";
@@ -9,7 +9,7 @@ import 'antd/dist/antd.css';
 
 const App = () => {
   return (
-    <div className="container" style={{ paddingTop: "5em" }}>
+    <div className="container" style={{ paddingTop: "15vh" }}>
       <Router>
         <Route exact path="/" component={() => <StartPage />} />
         <Route exact path="/login" component={() => <LoginPage />} />

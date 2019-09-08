@@ -17,17 +17,17 @@ const PersonCard = props => {
 
   return (
     <VerticallyCentered style={{ marginBottom: "1em" }}>
-      <Card
+      <Card 
         hoverable
         cover={
           <img
             alt="example"
-            src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            src={imgUrl}
           />
         }
       >
         <Meta title={name} style={{marginBottom: '0.5em'}} />
-        <Meta title={<Dot color={dotColor}/>} />
+        <Meta title={<Dot color={dotColor} />}/>
       </Card>
     </VerticallyCentered>
   );
