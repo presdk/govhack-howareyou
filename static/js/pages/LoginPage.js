@@ -3,23 +3,26 @@ import FacebookLogin from "react-facebook-login";
 
 const responseFacebook = response => {
   console.log(response);
-  const { accessToken } = response;
 
-  console.log("Access token incoming");
-  console.log(accessToken);
+  if (response.status === 'connected') {
+    const accessToken = response.authResponse.accessToken;
 
-  fetch("https://govhack.cheez.dev/api/login/social/token/facebook/", {
-    method: "POST",
-    headers: {
+    console.log("Access token incoming");
+    console.log(accessToken);
+
+    fetch("https://govhack.cheez.dev/api/login/social/token/facebook/", {
+      method: "POST",
+      headers: {
         'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      code: accessToken,
-      redirect_url: "https://govhack.cheez.dev/"
+      },
+      body: JSON.stringify({
+        code: accessToken,
+        redirect_url: "https://govhack.cheez.dev/"
+      })
     })
-  })
-    .then() //todo
-    .catch(res => console.log(res));
+        .then() //todo
+        .catch(res => console.log(res));
+  }
 };
 
 const LoginPage = () => {

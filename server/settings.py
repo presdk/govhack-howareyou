@@ -168,6 +168,7 @@ SOCIAL_AUTH_FACEBOOK_SCOPE = ['email',
                               'user_location',
 ]
 
+
 SOCIAL_AUTH_FACEBOOK_EXTRA_DATA = [
     ('name', 'name'),
     ('email', 'email'),
