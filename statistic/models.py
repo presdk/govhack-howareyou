@@ -46,7 +46,7 @@ class RegionGroupChoice(Enum):
 
 # For Statistic
 class SubmittedData(models.Model):
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, null=True)
 
     age_grp = models.CharField(
         max_length=5,
